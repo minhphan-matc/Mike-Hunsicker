@@ -118,9 +118,9 @@
   // continue with eight more packages... OR
 
   // Write package data using for loop
-  // for (var i = 0; i < data.length; i++) {
-  //   var package = new Package(data[i]);
-  //   writePackageInfo(package);
-  // }
+  for (var i = 0; i < data.length; i++) {
+    var package = new Package(data[i]);
+    writePackageInfo(package);
+  }
 
 }());
