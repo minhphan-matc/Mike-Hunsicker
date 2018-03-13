@@ -1,0 +1,45 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  margin: auto 30px;
+  background-color: #eeeeee;
+}
+
+main, footer {
+  margin:auto;
+  width: 300px;
+  //max-width: 500px;
+  min-width: 300px;
+}
+
+main {
+  background-color: #ffffff;
+  border: solid 1px #555555;
+  padding: 10px;
+}
+
+main div {
+  width: 100%;
+}
+
+.out-message, .in-message {
+  padding: 5px 0;
+  margin: 5px;
+}
+
+.out-message {
+  text-align: right;
+}
+
+.out-message span {
+  color: #ffffff;
+  background-color: blue;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.in-message span {
+  color: #ffffff;
+  background-color: gray;
+  padding: 5px;
+  border-radius: 5px;
+}
