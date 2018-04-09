@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Open+Sans">
+    <link rel="stylesheet" href="css/styles.css">
+  </head>
+  <body>
+    <header>
+      <span id="header-title">My Sweet Blog</span>
+      <span id="header-menu">
+        <input type="checkbox" id="show-tooltip" value="">
+        <span>Show Tooltip</span>
+        <button type="button" id="new-button">New</button>
+      </span>
+    </header>
+    <main>
+      <section id="display-content">
+
+      </section>
+    </main>
+    <footer id="content-footer">
+      <ul class="footer">
+        <li>
+          screenX <span id="screenX"></span>
+        </li>
+        <li>
+          screenY <span id="screenY"></span>
+        </li>
+        |
+        <li>
+          pageX <span id="pageX"></span>
+        </li>
+        <li>
+          pageY <span id="pageY"></span>
+        </li>
+        |
+        <li>
+          clientX <span id="clientX"></span>
+        </li>
+        <li>
+          clientY <span id="clientY"></span>
+        </li>
+      </ul>
+
+    </footer>
+
+    <!-- modal -->
+    <div class="modal" id="modal-dialog">
+      <div id="modal-content">
+        <!-- title text -->
+        <section>
+          <h4>Title</h4>
+          <input type="text" id="edit-title-text">
+          <span id="edit-title-message"></span>
+        </section>
+        <!-- content text -->
+        <section>
+          <h4>Content</h4>
+          <textarea id="edit-content-text" rows="8" cols="80"></textarea>
+        </section>
+        <footer>
+          <button type="button" id="cancel-button">Cancel</button>
+          <button type="button" id="save-button">Save</button>
+        </footer>
+      </div>
+
+    </div>
+
+    <!-- modal background -->
+    <div id="modal-backdrop"></div>
+
+    <!-- tooltip -->
+    <div id="tooltip">
+      tooltip
+    </div>
+
+    <script src="js/scripts.js" charset="utf-8"></script>
+  </body>
+</html>
